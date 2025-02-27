@@ -1,0 +1,65 @@
+header{
+    border: 1px solid black;
+    background-image: url("images/bg-desktop-light.jpg");
+    color: white;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    letter-spacing: 10px;
+    text-align: center;
+    padding-inline: 100px;
+    padding-block-start: 7rem;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+   font-size: 3rem;
+   display: inline;
+   padding-right: 400px;
+
+}
+a{
+    margin-top: 500px;
+}
+input{
+    display: inline;
+    /* display: block; */
+    margin-inline: auto;
+    margin-top: 50px;
+    width: 600px;
+    height: 3rem;
+    border-radius: 5px;
+    border-style: hidden;
+    
+}
+ul{
+    list-style: none;
+    display: block;
+    color: black;
+    margin-inline: auto;
+    padding-right: 40px;
+    max-height: 20rem;
+    overflow-y: hidden;
+}
+li{
+    background-color: white;
+    width: 600px;
+    height: 3rem;
+    margin-inline: auto;
+    border-radius: 5px;
+    margin-block-end: 1rem;
+    text-align: left;
+    letter-spacing: 0;
+}
+label{
+    color: white;
+    letter-spacing: 0;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+html{
+    color-scheme: dark;
+}
