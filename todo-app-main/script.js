@@ -1,12 +1,20 @@
 document.getElementById("brj").addEventListener("click",function(){
-    const newelem=document.createElement("li");
-    let task=document.getElementById("task").value;
-    newelem.textContent=task;
-    const parent=document.getElementById("tasks");
-    parent.appendChild(newelem); 
-    document.getElementById("task").value ="";
-    countchilds();
-    updatetasks();
+    let contentInput=document.getElementById("task");
+    if(contentInput.value!=""){
+        const newelem=document.createElement("li");
+        let task=contentInput.value;
+        newelem.textContent=task;
+        const parent=document.getElementById("tasks");
+        parent.appendChild(newelem); 
+        document.getElementById("task").value ="";
+        countchilds();
+        updatetasks();
+        contentInput.placeholder="";
+        
+    }
+    else{
+        contentInput.placeholder="You need to enter a valid task first";
+    }
 });
 document.getElementById("del").addEventListener("click", del);
 function del(){

@@ -25,7 +25,7 @@ a{
     margin-top: 500px;
 }
 input{
-    display: inline;
+    display: block;
     /* display: block; */
     margin-inline: auto;
     margin-top: 50px;
@@ -62,4 +62,7 @@ label{
 }
 html{
     color-scheme: dark;
+}
+.cursor-buttons:hover{
+    cursor:pointer;
 }
